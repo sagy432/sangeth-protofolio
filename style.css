@@ -1,0 +1,687 @@
+body{
+    background: #000000;
+}
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 805px;
+    position: absolute;
+    width: 100%;
+    height: 80px;
+    left: 0px;
+    top: 0px;
+    background: #0E0E0E;
+}
+.logo {
+    /* logo */
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 9px 17px;
+    gap: 10px;
+    width: 64px;
+    height: 64px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.nav-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0px;
+    gap: 47px;
+    width: 403px;
+    height: 32px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin-right: 10%;
+}
+.navhome{
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 1px;
+    gap: 5px;
+    width: 64px;
+    height: 32px;
+    border-radius: 12px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    color: #FFFFFF;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.navwork{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 1px;
+    gap: 5px;
+    width: 56px;
+    height: 32px;
+    border-radius: 12px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    color: #FFFFFF;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+}
+.navabout{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 1px;
+    gap: 5px;
+    width: 64px;
+    height: 32px;
+    border-radius: 12px;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    color: #FFFFFF;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+}
+.navcontact{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 1px;
+    gap: 5px;
+    width: 78px;
+    height: 32px;
+    border-radius: 12px;
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    color: #FFFFFF;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+
+}
+.nav-list a:hover {
+    background: #181818;
+    transition: background-color 0.3s ease;
+}        
+.line {
+    position: absolute;
+    width: 90%;
+    height: 0px;
+    left: 50px;
+    top: 80px;
+    border: 1px solid;
+    border-color:  rgba(255, 255, 255, 0.5);
+}
+@media (max-width: 1445px) {
+    .line {
+        position: absolute;
+        width: 100%;
+        height: 0px;
+        left: 50px;
+        top: 80px;
+        border: 1px solid;
+        border-color:  rgba(255, 255, 255, 0.5);
+    }
+    .nav-list {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+        padding: 0px;
+        gap: 47px;
+        width: 403px;
+        height: 32px;
+        flex: none;
+        order: 1;
+        margin-left: 5%;
+        flex-grow: 0;
+    }
+}
+@media (max-width: 1026px) {
+    .line {
+        position: absolute;
+        width: 146%;
+        height: 0px;
+        left: 40px;
+        top: 80px;
+        border: 1px solid;
+        border-color:  rgba(255, 255, 255, 0.5);
+    }
+    .nav-list {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+        padding: 0px;
+        gap: 47px;
+        width: 403px;
+        height: 32px;
+        flex: none;
+        order: 1;
+        margin-left: 15%;
+        flex-grow: 0;
+    }
+}
+@media (max-width: 770px) {
+    .line {
+        position: absolute;
+        width: 195%;
+        height: 0px;
+        left: 40px;
+        top: 80px;
+        border: 1px solid;
+        border-color:  rgba(255, 255, 255, 0.5);
+    }
+    .nav-list {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+        padding: 0px;
+        gap: 47px;
+        width: 403px;
+        height: 32px;
+        flex: none;
+        order: 1;
+        margin-left: 20%;
+        flex-grow: 0;
+    }
+}
+@media (max-width: 426px) {
+    .line {
+        position: absolute;
+        width: 350%;
+        height: 0px;
+        left: 40px;
+        top: 80px;
+        border: 1px solid;
+        border-color:  rgba(255, 255, 255, 0.5);
+    }
+    .nav-list {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+        padding: 0px;
+        gap: 47px;
+        width: 403px;
+        height: 32px;
+        flex: none;
+        order: 1;
+        margin-left: 40%;
+        flex-grow: 0;
+    }
+}
+@media (max-width: 376px) {
+    .line {
+        position: absolute;
+        width: 365%;
+        height: 0px;
+        left: 40px;
+        top: 80px;
+        border: 1px solid;
+        border-color:  rgba(255, 255, 255, 0.5);
+    }
+    .nav-list {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+        padding: 0px;
+        gap: 47px;
+        width: 403px;
+        height: 32px;
+        flex: none;
+        order: 1;
+        margin-left: 20%;
+        flex-grow: 0;
+    }
+}
+@media (max-width: 321px) {
+    .line {
+        position: absolute;
+        width: 379%;
+        height: 0px;
+        left: 40px;
+        top: 80px;
+        border: 1px solid;
+        border-color:  rgba(255, 255, 255, 0.5);
+    }
+    .nav-list {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+        padding: 0px;
+        gap: 47px;
+        width: 403px;
+        height: 32px;
+        flex: none;
+        order: 1;
+        margin-left: -25%;
+        flex-grow: 0;
+    }
+}
+.details{
+    position: absolute;
+    width: 652px;
+    height: 211px;
+    left: 145px;
+    top: 200px;
+}
+.head-details{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+    color: #FFFFFF;
+}
+.paragrah-details{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 48px;
+    line-height: 100%;
+    color: #FFFFFF;
+}
+.social-media{
+    position: absolute;
+    width: 166px;
+    height: 18.24px;
+    left: 147px;
+    top: 439.92px;
+    
+}
+.social-media-group{
+    position: absolute;
+    width: 166px;
+    height: 18.24px;
+    left: calc(50% - 166px/2 - 526px);
+    top: calc(50% - 18.24px/2 - 730.46px);
+}
+.linkedin{
+    position: absolute;
+    width: 18.16px;
+    height: 18.16px;
+    left: 10px;
+}
+.instagram{
+    position: absolute;
+    width: 18.16px;
+    height: 18.16px;
+    left: 80px;
+    top: 1px;
+}
+.xsocial{
+    position: absolute;
+    width: 15.07px;
+    height: 13.62px;
+    left: 155px;
+    top: 2px;
+}
+.mobile-work{
+    position: absolute;
+    width: 1600px;
+    height: 800px;
+    left: 128px;
+    top: 579px;
+    background: #181818;
+    box-shadow: 4px 4px 8px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+}
+.mobile-work-ellipse{
+    position: absolute;
+    width: 827px;
+    height: 827px;
+    left: 765px;
+    top: -10px;
+}
+
+.mobile-workmockup{
+    position: absolute;
+    left: 44.98%;
+    right: 9.68%;
+    top: 2.62%;
+    bottom: 2.71%;
+}
+.mobile1{
+    position: absolute;
+    left: 30.98%;
+    right: 34.98%;
+    top: 2.62%;
+    bottom: 22.66%;
+}
+.mobile2{
+    position: absolute;
+    left: 70.28%;
+    right: 9.68%;
+    top: 22.58%;
+    bottom: 2.71%;
+}
+.mobile-details-head{
+    /* Logistics app */
+    position: absolute;
+    width: 158px;
+    height: 24px;
+    left: 250px;
+    top: 300px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 100%;
+    color: #FFFFFF;
+}
+.mobile-details-paragrah{
+    position: absolute;
+    width: 380px;
+    height: 42px;
+    left: 250px;
+    top: 360px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 100%;
+    color: #FFFFFF;
+}
+
+.laptop-work{
+    position: absolute;
+    width: 1600px;
+    height: 800px;
+    left: 128px;
+    top: 1439px;
+    background: #181818;
+    box-shadow: 4px 4px 8px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+}
+.laptop-work-ellipse{
+    position: absolute;
+    width: 908px;
+    height: 908px;
+    left: 765px;
+    top: -70px;
+}
+.laptop-work1{
+    position: absolute;
+    width: 1132px;
+    height: 849px;
+    left: 600px;
+    top: -25px;
+    background: url('./img/laptop.png');
+}
+.laptop-work-head{
+    position: absolute;
+    width: 256px;
+    height: 24px;
+    left: 250px;
+    top: 305px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 100%;
+    color: #FFFFFF;
+}
+.laptop-work-pagrahe{
+    position: absolute;
+    width: 380px;
+    height: 42px;
+    left: 250px;
+    top: 365px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 100%;
+    color: #FFFFFF;
+}
+.main-text{
+    position: absolute;
+    width: 687px;
+    height: 1202px;
+    left: 128px;
+    top: 200px;
+}
+.main-text-header{
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 125%;
+    color: #FFFFFF;
+}
+.main-text-header-details{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 125%;
+    color: #FFFFFF;
+}
+.main-text-header1{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 125%;
+    color: #FFFFFF;
+}
+.iphone-details{
+    position: absolute;
+    width: 832px;
+    height: 623px;
+    left: 820px;
+    top: 98px;
+    background: url('./img/iphonedetails1.png');
+}
+.main-iphone{
+    /* main */
+    position: absolute;
+    width: 379.36px;
+    height: 552px;
+    left: 1175px;
+    top: 755px;
+    background: url('./img/mainiphone.png');
+}
+.main-iphone1{
+    position: absolute;
+    width: 175.34px;
+    height: 474.61px;
+    left: 1179.16px;
+    top: 761.22px;
+
+    background: url('./img/mainiphone1.png');
+    mix-blend-mode: normal;
+}
+.main-iphone2{
+    position: absolute;
+    width: 175.48px;
+    height: 474.88px;
+    left: 1373.24px;
+    top: 824.54px;
+    background: url('./img/mainiphone2.png');
+    mix-blend-mode: normal;
+}
+.iphonelist1{
+    position: absolute;
+    width: 437.89px;
+    height: 657px;
+    left: 270px;
+    top: 1462px;
+    background: url('./img/iPhonelist1.png');
+}
+.iphonelist2{
+    position: absolute;
+    width: 437.89px;
+    height: 657px;
+    left: 675px;
+    top: 1462px;
+    background: url('./img/iphonelist2.png');
+}
+.iphonelist3{
+    position: absolute;
+    width: 437.89px;
+    height: 657px;
+    left: 1060px;
+    top: 1462px;
+    background: url('./img/iphonelist3.png');
+}
+.iphonelist4{
+    position: absolute;
+    width: 437.89px;
+    height: 657px;
+    left: 270px;
+    top: 2119px;
+    background: url('./img/iphonelist4.png');
+}
+.iphonelist5{
+    position: absolute;
+    width: 437.89px;
+    height: 657px;
+    left: 675px;
+    top: 2119px;
+    background: url('./img/iphonelist5.png');
+}
+.iphonelist6{
+    position: absolute;
+    width: 437.89px;
+    height: 657px;
+    left: 1060px;
+    top: 2119px;
+    background: url('./img/iphonelist6.png');
+}
+.iphonelist7{
+    position: absolute;
+    width: 437.89px;
+    height: 657px;
+    left: 270px;
+    top: 2776px;
+    background: url('./img/iphonelist7.png');
+}
+.iphonelist8{
+    position: absolute;
+    width: 437.89px;
+    height: 657px;
+    left: 675px;
+    top: 2776px;
+    background: url('./img/iphonelist8.png');
+
+}
+.iphonelist9{
+    position: absolute;
+    width: 437.89px;
+    height: 657px;
+    left: 1060px;
+    top: 2776px;
+    background: url('./img/iphonelist9.png');
+
+}
+
+.main-text-detals{
+    position: absolute;
+    width: 687px;
+    height: 1873px;
+    left: 128px;
+    top: 199px;
+}
+.main-text-header{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 125%;
+    color: #FFFFFF;
+}
+.main-text-header1{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 125%;
+    color: #FFFFFF;
+}
+.main-text-details{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 125%;
+    color: #FFFFFF;
+}
+.mac-work1-img{
+    position: absolute;
+    width: 812px;
+    height: 609px;
+    left: 840px;
+    top: 200px;
+    background: url('./img/mac-work1-img.png');
+}
+.mac-work1-img2{
+    position: absolute;
+    width: 782px;
+    height: 586.5px;
+    left: 840px;
+    top: 820px;
+    background: url('./img/mac-work1-img2.png');
+}
+.mac-work1-img3{
+    position: absolute;
+    width: 598px;
+    height: 620px;
+    left: 960px;
+    top: 1378px;
+    background: url('./img/mac-work1-img3.png');
+}
+.group-img{
+    position: absolute;
+    width: 1310.82px;
+    height: 6877.73px;
+    left: 210px;
+    top: 2192px;
+    background: url('./img/groupimg.png');
+    box-shadow: 4px 4px 28px 4px rgba(255, 255, 255, 0.25);
+}
